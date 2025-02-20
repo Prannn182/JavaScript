@@ -6,6 +6,7 @@ console.log(getRandomHexColor()); // Example output: #f1c40f
 document.body.style.backgroundColor=getRandomHexColor();
 // document.body.box.style.Color=getRandomHexColor();
 
-document.querySelectorAll(".box").forEach(
-    box=>{box.style.backgroundColor=getRandomHexColor()}
-)
+document.querySelectorAll(".box").forEach(box=>{
+    box.style.backgroundColor=getRandomHexColor()
+    box.style.color=getRandomHexColor()}
+);
