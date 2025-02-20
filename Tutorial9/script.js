@@ -35,3 +35,5 @@ undefined
 document.querySelector(".box").setAttribute("style","display:inline")
 document.querySelector(".box").removeAttribute("style")
 document.designMode="on"
+document.querySelector(".box").remove()
+document.getElementsByClassName("container")
