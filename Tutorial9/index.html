@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container{
+            color: red;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container red green">
         <div class="box" style="display: flex;" data-createdby="Pranali" data-conceptby="prasad">hey i am a box</div>
     </div>
+    <script>
+        // let div = document.createElement("div"); // creating a div element
+        // div.innerHTML = "<b>This is a created element<b>"; // adding innerHTML to the created element
+        // div.setAttribute("class","created"); // adding class to the created element with the class name
+        // document.querySelector(".container").replaceWith(div);
+        // document.querySelector(".container").after(div);
+        // document.querySelector(".container").before(div);
+        // document.querySelector(".container").append(div);
+        // document.querySelector(".container").prepend(div);
+        let cont = document.querySelector(".container");
+        cont.insertAdjacentHTML("afterbegin","<button>beforebegin</button>"); //inserting using insertAdjacentHTML
+    </script>
 </body>
 </html>
