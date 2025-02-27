@@ -12,6 +12,11 @@ async function sleep() {
   console.log(a);
   let[x,y,...j]=[1,2,6,8,9,77,15,46,32];
     console.log(x,y,j);
+    //destructuring in object
+    let obj={name:'Rahul',age:20};
+     const {name,age}=obj;
+     console.log(name,age);
+    
 })();
 
 
